@@ -1,0 +1,49 @@
+.card{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 10px;
+    margin-top: 30px;
+}
+.gitInfo{
+    display: flex;
+    justify-content: space-around;
+}
+.avatar img{
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 10px;
+}
+.infoInner{
+    margin: 0 3%;
+}
+.contributorsList{
+    font-size: 25px;
+}
+.contributorItem{
+    font-size: 18px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #24292e;
+}
+.contributorItem .contributorAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.information a{
+    color: #000;
+    text-decoration: none; 
+    border-bottom: 1px solid #000;
+}
+.information span{
+    font-style: italic;
+}
+.information{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
